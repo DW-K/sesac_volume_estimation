@@ -57,9 +57,10 @@ def load_volume_estimator(depth_model_architecture, depth_model_weights,
     global graph
     graph = tf.get_default_graph()
 
-    # Load food density database
-    global density_db
-    density_db = DensityDatabase(density_db_source)
+    if density_db is not None or density_db is not False:
+        # Load food density database
+        global density_db
+        density_db = DensityDatabase(density_db_source)
 
 @app.route('/predict', methods=['POST'])
 def volume_estimation():
