@@ -99,6 +99,7 @@ def volume_estimation():
     try:
         plate_diameter = float(content['plate_diameter'])
     except Exception as e:
+        print('set plate_diameter 0')
         plate_diameter = 0
 
     # Estimate volumes
