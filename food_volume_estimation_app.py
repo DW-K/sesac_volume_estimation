@@ -103,8 +103,7 @@ def volume_estimation():
         food_type = request.form.get('food', None)
     except Exception as e:
         abort(406)
-    print("-----------------------------")
-    print(f'food type: {food_type}')
+
     # Get expected plate diameter from form data or set to 0 and ignore
     try:
         # plate_diameter = float(content['plate_diameter'])
@@ -128,14 +127,10 @@ def volume_estimation():
     # Convert volumes to weight - assuming a single food type
     try:
         db_entry = density_db.query(food_type)
-        # print(f'db_entry: {db_entry}')
-        density = db_entry[1]
-        print(f'density? : {density}, {type(density)}')
+        print(f'db_entry: {db_entry}')
+        density = float(db_entry[1])
         weight = 0
-        print(f'volumes: {volumes}')
         for v in volumes:
-            print(f'weight: {weight}')
-            print(f'v: {v}, {type(v)}')
             weight += v * density
 
         # Return values
