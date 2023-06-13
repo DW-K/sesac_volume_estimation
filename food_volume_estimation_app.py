@@ -132,8 +132,10 @@ def volume_estimation():
         density = db_entry[1]
         print(f'density? : {density}')
         weight = 0
+        print(f'volumes: {volumes}')
         for v in volumes:
             print(f'weight: {weight}')
+            print(f'v: {v}')
             weight += v * density
 
         # Return values
