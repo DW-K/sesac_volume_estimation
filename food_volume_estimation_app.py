@@ -81,22 +81,27 @@ def volume_estimation():
     """
     # Decode incoming byte stream to get an image
 
-    try:
-        content = request.get_json()
-        print(f'content: {content}')
-        img_encoded = content['img']
-        print(f'img_encoded: {img_encoded}')
-        img_byte_string = ' '.join([str(x) for x in img_encoded]) # If in byteArray
-        print(f'img_byte_string: {img_byte_string}')
-        #img_byte_string = base64.b64decode(img_encoded) # Decode if in base64
-        np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
-        print(f'np_img: {np_img}')
-        img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
-        print(f'img: {img}')
-    except Exception as e:
-        print("????????????")
-        print(e)
-        abort(406)
+    image_data = request.files['img'].read()
+    # 이미지 데이터를 디코딩하여 OpenCV 이미지로 변환합니다.
+    np_img = np.frombuffer(image_data, np.uint8)
+    img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+
+
+    # try:
+    #     content = request.get_json()
+    #     print(f'content: {content}')
+    #     img_encoded = content['img']
+    #     print(f'img_encoded: {img_encoded}')
+    #     img_byte_string = ' '.join([str(x) for x in img_encoded]) # If in byteArray
+    #     print(f'img_byte_string: {img_byte_string}')
+    #     #img_byte_string = base64.b64decode(img_encoded) # Decode if in base64
+    #     np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
+    #     print(f'np_img: {np_img}')
+    #     img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+    #     print(f'img: {img}')
+    # except Exception as e:
+    #     print(e)
+    #     abort(406)
 
     # Get food type
     try:
