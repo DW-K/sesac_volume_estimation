@@ -59,13 +59,8 @@ def load_volume_estimator(depth_model_architecture, depth_model_weights,
     global graph
     graph = tf.get_default_graph()
 
-    print("===================")
-    print(density_db_source)
     if density_db_source is not None:
         # Load food density database
-        print('-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=')
-        print(density_db_source)
-        print(density_db_source is not None)
         global density_db
         density_db = DensityDatabase(density_db_source)
 
@@ -148,13 +143,10 @@ if __name__ == '__main__':
                         default=None,
                         required=False)
     args = parser.parse_args()
-
-    print("------------------------------")
-    print(args.depth_model_architecture, args.depth_model_weights, args.segmentation_model_weights, args.density_db_source)
     
     load_volume_estimator(depth_model_architecture = args.depth_model_architecture,
                           depth_model_weights= args.depth_model_weights, 
                           segmentation_model_weights = args.segmentation_model_weights,
                           density_db_source = args.density_db_source)
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port='8888')
 
