@@ -32,10 +32,10 @@ from food_volume_estimation.point_cloud_utils import *
 
 
 # print(tf.__version__)
-# print("--------------------------------------------")
-# from tensorflow.python.client import device_lib
-# print(device_lib.list_local_devices())
-# print("--------------------------------------------")
+print("--------------------------------------------")
+from tensorflow.python.client import device_lib
+print(device_lib.list_local_devices())
+print("--------------------------------------------")
 
 class DensityDatabase():
     """Density Database searcher object. Food types are expected to be
@@ -138,8 +138,8 @@ class VolumeEstimator():
 
             # If given initialize food density database 
 
-            if self.args.density_db is not None:
-                self.density_db = DensityDatabase(self.args.density_db)
+            # if self.args.density_db is not None:
+            #     self.density_db = DensityDatabase(self.args.density_db)
 
 
     def __parse_args(self, args_dict):
@@ -529,15 +529,15 @@ if __name__ == '__main__':
             results['volumes'].append(volumes * 1000)
 
         # Print weight if density database is given
-        if estimator.args.density_db is not None:
-            db_entry = estimator.density_db.query(
-                estimator.args.food_type)
-            density = db_entry[1]
-            print('[*] Density database match:', db_entry)
-            # All foods found in the input image are considered to be
-            # of the same type
-            for v in results['volumes'][-1]:
-                print('[*] Food weight:', 1000 * v * density, 'g')
+        # if estimator.args.density_db is not None:
+        #     db_entry = estimator.density_db.query(
+        #         estimator.args.food_type)
+        #     density = db_entry[1]
+        #     print('[*] Density database match:', db_entry)
+        #     # All foods found in the input image are considered to be
+        #     # of the same type
+        #     for v in results['volumes'][-1]:
+        #         print('[*] Food weight:', 1000 * v * density, 'g')
 
     if estimator.args.results_file is not None:
         # Save results in CSV format

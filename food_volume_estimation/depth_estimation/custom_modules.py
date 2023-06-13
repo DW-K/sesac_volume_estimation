@@ -2,9 +2,9 @@ import json
 import pandas as pd
 import cv2
 import tensorflow as tf
-import tensorflow.keras.backend as K
-from tensorflow.keras.layers import Layer
-from tensorflow.keras.utils import Sequence
+import keras.backend as K
+from keras.layers import Layer
+from keras.utils import Sequence
 from food_volume_estimation.depth_estimation.project import *
 
 

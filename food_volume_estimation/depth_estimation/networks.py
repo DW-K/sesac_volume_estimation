@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Conv2D, UpSampling2D, GlobalAveragePooling2D, \
+from keras.models import Model
+from keras.layers import Conv2D, UpSampling2D, GlobalAveragePooling2D, \
     LeakyReLU, Dense, Flatten, Input, Concatenate, Lambda, BatchNormalization
 from classification_models.keras import Classifiers
 from food_volume_estimation.depth_estimation.custom_modules import *

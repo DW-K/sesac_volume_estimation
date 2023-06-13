@@ -196,8 +196,7 @@ def _egomotion_vec2mat(vec, batch_size):
     ry = tf.slice(vec, [0, 4], [-1, 1])
     rz = tf.slice(vec, [0, 5], [-1, 1])
     rot_mat = _euler2mat(rz, ry, rx)
-#     rot_mat = tf.squeeze(rot_mat, squeeze_dims=[1])
-    rot_mat = tf.squeeze(rot_mat, [1])
+    rot_mat = tf.squeeze(rot_mat, squeeze_dims=[1])
     filler = tf.constant([0.0, 0.0, 0.0, 1.0], shape=[1, 1, 4])
     filler = tf.tile(filler, [batch_size, 1, 1])
     transform_mat = tf.concat([rot_mat, translation], axis=2)
@@ -226,9 +225,7 @@ def _bilinear_sampler(im, x, y, name='blinear_sampler'):
             in the mask indicates that the corresponding coordinate in the sampled
             image is valid.
     """
-    with tf.compat.v1.variable_scope(name):
-        tf.to_float = lambda x: tf.cast(x, tf.float32)
-        
+    with tf.variable_scope(name):
         x = tf.reshape(x, [-1])
         y = tf.reshape(y, [-1])
 

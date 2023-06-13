@@ -3,10 +3,10 @@ import argparse
 import numpy as np
 import pandas as pd
 import json
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import LearningRateScheduler, LambdaCallback
-import tensorflow.keras.preprocessing.image as pre
+from keras.models import Model
+from keras.optimizers import Adam
+from keras.callbacks import LearningRateScheduler, LambdaCallback
+import keras.preprocessing.image as pre
 from food_volume_estimation.depth_estimation.custom_modules import *
 from food_volume_estimation.depth_estimation.networks import NetworkBuilder
 
