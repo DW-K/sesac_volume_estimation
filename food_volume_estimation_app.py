@@ -144,7 +144,8 @@ def volume_estimation():
         return_vals = {
             'volume(mL)': sum(volumes)
         }
-    return make_response(jsonify(return_vals), 200)
+    # return make_response(jsonify(return_vals), 200)
+    return make_response(return_vals, 200)
 
 
 if __name__ == '__main__':
