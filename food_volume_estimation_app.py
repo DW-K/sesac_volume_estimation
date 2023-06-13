@@ -61,8 +61,11 @@ def load_volume_estimator(depth_model_architecture, depth_model_weights,
 
     print("===================")
     print(density_db_source)
-    if density_db_source is not None or density_db_source is not False:
+    if density_db_source is not None:
         # Load food density database
+        print('-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=')
+        print(density_db_source)
+        print(density_db_source is not None)
         global density_db
         density_db = DensityDatabase(density_db_source)
 
