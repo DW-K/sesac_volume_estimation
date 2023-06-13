@@ -48,6 +48,7 @@ class DensityDatabase():
         """
         print("=--=-=-=-=--=-=--=-=-=-==-=-")
         print(f'db_path: {db_path}')
+        print(os.path.exists(db_path))
         if os.path.exists(db_path):
             # Read density database from excel file
             self.density_database = pd.read_excel(
