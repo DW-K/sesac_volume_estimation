@@ -10,7 +10,7 @@ matplotlib==3.0.3
 pyntcloud==0.1.2
 pythreejs==2.1.1
 IPython
-Flask==1.1.1
+Flask==2.2.2
 fuzzywuzzy==0.18.0
 h5py==2.10.0
-# opencv-python-headless
+opencv-python-headless
