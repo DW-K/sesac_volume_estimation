@@ -51,8 +51,7 @@ class DensityDatabase():
         print(os.path.exists(db_path))
         if os.path.exists(db_path):
             # Read density database from excel file
-            self.density_database = pd.read_csv(
-                db_path, sheet_name=0, usecols=[0, 1])
+            self.density_database = pd.read_csv(db_path, usecols=[0, 1], header=None)
         else:
             # Read density database from Google Sheets URL
             sheet = 'Sheet1'
