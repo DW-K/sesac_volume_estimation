@@ -1,5 +1,5 @@
 import os
-ROOT_DIR = os.path.abspath("../")
+ROOT_DIR = os.path.abspath(".")
 import argparse
 import numpy as np
 import cv2
