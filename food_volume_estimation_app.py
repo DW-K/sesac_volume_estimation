@@ -1,3 +1,5 @@
+import os
+ROOT_DIR = os.path.abspath("../")
 import argparse
 import numpy as np
 import cv2
@@ -125,15 +127,15 @@ if __name__ == '__main__':
         description='Food volume estimation API.')
     parser.add_argument('--depth_model_architecture', type=str,
                         help='Path to depth model architecture (.json).',
-                        default='/models/monovideo_fine_tune_food_videos.json',
+                        default=f'{ROOT_DIR}/models/monovideo_fine_tune_food_videos.json',
                         required=False)
     parser.add_argument('--depth_model_weights', type=str,
                         help='Path to depth model weights (.h5).',
-                        default='/models/monovideo_fine_tune_food_videos.h5',
+                        default=f'{ROOT_DIR}/models/monovideo_fine_tune_food_videos.h5',
                         required=False)
     parser.add_argument('--segmentation_model_weights', type=str,
                         help='Path to segmentation model weights (.h5).',
-                        default='/models/mask_rcnn_food_segmentation.h5',
+                        default=f'{ROOT_DIR}/models/mask_rcnn_food_segmentation.h5',
                         required=False)
     parser.add_argument('--density_db_source', type=str,
                         help=('Path to food density database (.xlsx) ' +
