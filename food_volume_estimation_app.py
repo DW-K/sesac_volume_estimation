@@ -87,7 +87,8 @@ def volume_estimation():
     if file.filename == '':
             return make_response(jsonify({'error': 'No image found.'}), 400)
     print(f'file: {file}, {type(file)}')
-    stream = io.BytesIO(file)
+    image_data = file.stream.read()
+    stream = io.BytesIO(image_data)
     pil_image = Image.open(stream)
     img = cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
     # np_img = np.fromstring(file.read(), np.uint8)
