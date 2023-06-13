@@ -88,6 +88,7 @@ def volume_estimation():
             return make_response(jsonify({'error': 'No image found.'}), 400)
     print(f'file: {file}, {type(file)}')
     image_data = file.read()
+    file.seek(0)
     print(f'image_data :{image_data} {type(image_data)}')
     np_img = np.frombuffer(image_data, np.uint8)
     print(f'np_img :{np_img} {type(np_img)}')
