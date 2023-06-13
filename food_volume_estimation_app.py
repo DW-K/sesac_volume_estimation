@@ -10,6 +10,8 @@ from food_volume_estimation.depth_estimation.custom_modules import *
 from food_volume_estimation.food_segmentation.food_segmentator import FoodSegmentator
 from flask import Flask, request, jsonify, make_response, abort
 import base64
+import io
+from PIL import Image
 
 
 app = Flask(__name__)
@@ -85,13 +87,16 @@ def volume_estimation():
     if file.filename == '':
             return make_response(jsonify({'error': 'No image found.'}), 400)
     print(f'file: {file}, {type(file)}')
+    stream = io.BytesIO(file)
+    pil_image = Image.open(stream)
+    img = cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
     # np_img = np.fromstring(file.read(), np.uint8)
-    np_img = np.frombuffer(file.read(), np.uint8)
-    # np_img = np.fromstring(file.stream.read(), np.uint8)
-    # np_img = np.frombuffer(file.stream.read(), np.uint8)
-    print("np_img: ")
-    print(np_img, type(np_img))
-    img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+    # np_img = np.frombuffer(file.read(), np.uint8)
+    # # np_img = np.fromstring(file.stream.read(), np.uint8)
+    # # np_img = np.frombuffer(file.stream.read(), np.uint8)
+    # print("np_img: ")
+    # print(np_img, type(np_img))
+    # img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
 
     # try:
     #     content = request.get_json()
