@@ -130,12 +130,12 @@ def volume_estimation():
         db_entry = density_db.query(food_type)
         # print(f'db_entry: {db_entry}')
         density = db_entry[1]
-        print(f'density? : {density}')
+        print(f'density? : {density}, {type(density)}')
         weight = 0
         print(f'volumes: {volumes}')
         for v in volumes:
             print(f'weight: {weight}')
-            print(f'v: {v}')
+            print(f'v: {v}, {type(v)}')
             weight += v * density
 
         # Return values
