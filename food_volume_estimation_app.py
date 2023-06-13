@@ -88,11 +88,11 @@ def volume_estimation():
     except Exception as e:
         abort(406)
 
-    # Get food type
-    try:
-        food_type = content['food_type']
-    except Exception as e:
-        abort(406)
+    # # Get food type
+    # try:
+    #     food_type = content['food_type']
+    # except Exception as e:
+    #     abort(406)
 
     # Get expected plate diameter from form data or set to 0 and ignore
     try:
@@ -104,20 +104,27 @@ def volume_estimation():
     with graph.as_default():
         volumes = estimator.estimate_volume(img, fov=70,
             plate_diameter_prior=plate_diameter)
+    
+    try:
     # Convert to mL
-    volumes = [v * 1e6 for v in volumes]
+        volumes = [v * 1e6 for v in volumes]
+    except:
+        return make_response(jsonify({'volume': 0}), 200)
     
     # Convert volumes to weight - assuming a single food type
-    db_entry = density_db.query(food_type)
-    density = db_entry[1]
-    weight = 0
-    for v in volumes:
-        weight += v * density
+    # db_entry = density_db.query(food_type)
+    # density = db_entry[1]
+    # weight = 0
+    # for v in volumes:
+    #     weight += v * density
 
     # Return values
+    # return_vals = {
+    #     'food_type_match': db_entry[0],
+    #     'weight': weight
+    # }
     return_vals = {
-        'food_type_match': db_entry[0],
-        'weight': weight
+        'volume': sum(volumes)
     }
     return make_response(jsonify(return_vals), 200)
 
