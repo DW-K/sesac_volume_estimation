@@ -142,9 +142,12 @@ if __name__ == '__main__':
                         required=False)
     args = parser.parse_args()
 
-    load_volume_estimator(args.depth_model_architecture,
-                          args.depth_model_weights, 
-                          args.segmentation_model_weights,
-                          args.density_db_source)
+    print("------------------------------")
+    print(args.depth_model_architecture, args.depth_model_weights, args.segmentation_model_weights, args.density_db_source)
+    
+    load_volume_estimator(depth_model_architecture = args.depth_model_architecture,
+                          depth_model_weights= args.depth_model_weights, 
+                          segmentation_model_weights = args.segmentation_model_weights,
+                          density_db_source = args.density_db_source)
     app.run(host='0.0.0.0')
 
