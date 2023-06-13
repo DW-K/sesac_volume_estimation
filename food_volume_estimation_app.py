@@ -59,6 +59,8 @@ def load_volume_estimator(depth_model_architecture, depth_model_weights,
     global graph
     graph = tf.get_default_graph()
 
+    print("===================")
+    print(density_db_source)
     if density_db_source is not None or density_db_source is not False:
         # Load food density database
         global density_db
