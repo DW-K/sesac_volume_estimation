@@ -125,20 +125,20 @@ if __name__ == '__main__':
         description='Food volume estimation API.')
     parser.add_argument('--depth_model_architecture', type=str,
                         help='Path to depth model architecture (.json).',
-                        metavar='/models/monovideo_fine_tune_food_videos.json',
+                        default='/models/monovideo_fine_tune_food_videos.json',
                         required=False)
     parser.add_argument('--depth_model_weights', type=str,
                         help='Path to depth model weights (.h5).',
-                        metavar='/models/monovideo_fine_tune_food_videos.h5',
+                        default='/models/monovideo_fine_tune_food_videos.h5',
                         required=False)
     parser.add_argument('--segmentation_model_weights', type=str,
                         help='Path to segmentation model weights (.h5).',
-                        metavar='/models/mask_rcnn_food_segmentation.h5',
+                        default='/models/mask_rcnn_food_segmentation.h5',
                         required=False)
     parser.add_argument('--density_db_source', type=str,
                         help=('Path to food density database (.xlsx) ' +
                               'or Google Sheets ID.'),
-                        metavar=None,
+                        default=None,
                         required=False)
     args = parser.parse_args()
 
