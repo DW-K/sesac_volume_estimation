@@ -137,7 +137,7 @@ def volume_estimation():
     #     'weight': weight
     # }
     return_vals = {
-        'volume': sum(volumes)
+        'volume(mL)': sum(volumes)
     }
     return make_response(jsonify(return_vals), 200)
 
