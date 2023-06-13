@@ -86,14 +86,14 @@ def volume_estimation():
 
     if file.filename == '':
             return make_response(jsonify({'error': 'No image found.'}), 400)
-    print(f'file: {file}, {type(file)}')
-    file.seek(0)
-    image_data = file.read()
-    print(f'image_data :{image_data} {type(image_data)}')
-    np_img = np.frombuffer(image_data, np.uint8)
-    print(f'np_img :{np_img} {type(np_img)}')
-    img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
-    print(f'img :{img} {type(img)}')
+    # print(f'file: {file}, {type(file)}')
+    # file.seek(0)
+    # image_data = file.read()
+    # print(f'image_data :{image_data} {type(image_data)}')
+    # np_img = np.frombuffer(image_data, np.uint8)
+    # print(f'np_img :{np_img} {type(np_img)}')
+    # img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+    # print(f'img :{img} {type(img)}')
 
     # np_img = np.fromstring(file.read(), np.uint8)
     # np_img = np.frombuffer(file.read(), np.uint8)
@@ -103,16 +103,21 @@ def volume_estimation():
     # print(np_img, type(np_img))
     # img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
 
-    # try:
-    #     content = request.get_json()
-    #     img_encoded = content['img']
-    #     img_byte_string = ' '.join([str(x) for x in img_encoded]) # If in byteArray
-    #     #img_byte_string = base64.b64decode(img_encoded) # Decode if in base64
-    #     np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
-    #     img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
-    # except Exception as e:
-    #     print(e)
-    #     abort(406)
+    try:
+        content = request.get_json()
+        print(f'content: {content}')
+        img_encoded = content['img']
+        print(f'img_encoded: {img_encoded}')
+        img_byte_string = ' '.join([str(x) for x in img_encoded]) # If in byteArray
+        print(f'img_byte_string: {img_byte_string}')
+        #img_byte_string = base64.b64decode(img_encoded) # Decode if in base64
+        np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
+        print(f'np_img: {np_img}')
+        img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+        print(f'img: {img}')
+    except Exception as e:
+        print(e)
+        abort(406)
 
     # Get food type
     try:
