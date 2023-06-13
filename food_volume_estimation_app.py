@@ -78,16 +78,25 @@ def volume_estimation():
         The array of estimated volumes in JSON format.
     """
     # Decode incoming byte stream to get an image
-    try:
-        content = request.get_json()
-        img_encoded = content['img']
-        img_byte_string = ' '.join([str(x) for x in img_encoded]) # If in byteArray
-        #img_byte_string = base64.b64decode(img_encoded) # Decode if in base64
-        np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
-        img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
-    except Exception as e:
-        print(e)
-        abort(406)
+    if 'img' not in request.files:
+        return make_response(jsonify({'error': 'No img part in the request.'}), 400)
+    file = request.files['img']
+
+    if file.filename == '':
+            return make_response(jsonify({'error': 'No image found.'}), 400)
+    np_img = np.fromstring(file.read(), np.uint8)
+    img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+
+    # try:
+    #     content = request.get_json()
+    #     img_encoded = content['img']
+    #     img_byte_string = ' '.join([str(x) for x in img_encoded]) # If in byteArray
+    #     #img_byte_string = base64.b64decode(img_encoded) # Decode if in base64
+    #     np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
+    #     img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
+    # except Exception as e:
+    #     print(e)
+    #     abort(406)
 
     # # Get food type
     # try:
@@ -97,7 +106,8 @@ def volume_estimation():
 
     # Get expected plate diameter from form data or set to 0 and ignore
     try:
-        plate_diameter = float(content['plate_diameter'])
+        # plate_diameter = float(content['plate_diameter'])
+        plate_diameter = float(request.form.get('plate_diameter', 0))
     except Exception as e:
         print('set plate_diameter 0')
         plate_diameter = 0
