@@ -98,12 +98,13 @@ def volume_estimation():
     #     print(e)
     #     abort(406)
 
-    # # Get food type
-    # try:
-    #     food_type = content['food_type']
-    # except Exception as e:
-    #     abort(406)
-
+    # Get food type
+    try:
+        food_type = request.form.get('food', None)
+    except Exception as e:
+        abort(406)
+    print("-----------------------------")
+    print(f'food type: {food_type}')
     # Get expected plate diameter from form data or set to 0 and ignore
     try:
         # plate_diameter = float(content['plate_diameter'])
@@ -125,20 +126,24 @@ def volume_estimation():
         return make_response(jsonify({'volume': 0}), 200)
     
     # Convert volumes to weight - assuming a single food type
-    # db_entry = density_db.query(food_type)
-    # density = db_entry[1]
-    # weight = 0
-    # for v in volumes:
-    #     weight += v * density
+    try:
+        db_entry = density_db.query(food_type)
+        density = db_entry[1]
+        weight = 0
+        for v in volumes:
+            weight += v * density
 
-    # Return values
-    # return_vals = {
-    #     'food_type_match': db_entry[0],
-    #     'weight': weight
-    # }
-    return_vals = {
-        'volume(mL)': sum(volumes)
-    }
+        # Return values
+        return_vals = {
+            'food_type_match': db_entry[0],
+            'weight': weight
+        }
+    except Exception as e:
+        print("density Error")
+        print(e)
+        return_vals = {
+            'volume(mL)': sum(volumes)
+        }
     return make_response(jsonify(return_vals), 200)
 
 
@@ -160,7 +165,7 @@ if __name__ == '__main__':
     parser.add_argument('--density_db_source', type=str,
                         help=('Path to food density database (.xlsx) ' +
                               'or Google Sheets ID.'),
-                        default=None,
+                        default=f'{ROOT_DIR}/database/database.csv',
                         required=False)
     args = parser.parse_args()
     
