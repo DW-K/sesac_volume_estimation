@@ -94,6 +94,7 @@ def volume_estimation():
         img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
         print(f'img: {img}')
     except Exception as e:
+        print("????????????")
         print(e)
         abort(406)
 
@@ -173,5 +174,5 @@ if __name__ == '__main__':
                           depth_model_weights= args.depth_model_weights, 
                           segmentation_model_weights = args.segmentation_model_weights,
                           density_db_source = args.density_db_source)
-    app.run(host='0.0.0.0', port='8888')
+    app.run(host='0.0.0.0', port='8888', debug=True)
 
