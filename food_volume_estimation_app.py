@@ -86,6 +86,7 @@ def volume_estimation():
         np_img = np.fromstring(img_byte_string, np.int8, sep=' ')
         img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
     except Exception as e:
+        print(e)
         abort(406)
 
     # # Get food type
@@ -109,6 +110,7 @@ def volume_estimation():
     # Convert to mL
         volumes = [v * 1e6 for v in volumes]
     except:
+        print("volume has wrong value")
         return make_response(jsonify({'volume': 0}), 200)
     
     # Convert volumes to weight - assuming a single food type
