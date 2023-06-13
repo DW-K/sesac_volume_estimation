@@ -80,28 +80,6 @@ def volume_estimation():
         The array of estimated volumes in JSON format.
     """
     # Decode incoming byte stream to get an image
-    if 'img' not in request.files:
-        return make_response(jsonify({'error': 'No img part in the request.'}), 400)
-    file = request.files['img']
-
-    if file.filename == '':
-            return make_response(jsonify({'error': 'No image found.'}), 400)
-    # print(f'file: {file}, {type(file)}')
-    # file.seek(0)
-    # image_data = file.read()
-    # print(f'image_data :{image_data} {type(image_data)}')
-    # np_img = np.frombuffer(image_data, np.uint8)
-    # print(f'np_img :{np_img} {type(np_img)}')
-    # img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
-    # print(f'img :{img} {type(img)}')
-
-    # np_img = np.fromstring(file.read(), np.uint8)
-    # np_img = np.frombuffer(file.read(), np.uint8)
-    # # np_img = np.fromstring(file.stream.read(), np.uint8)
-    # # np_img = np.frombuffer(file.stream.read(), np.uint8)
-    # print("np_img: ")
-    # print(np_img, type(np_img))
-    # img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
 
     try:
         content = request.get_json()
