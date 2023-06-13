@@ -128,6 +128,7 @@ def volume_estimation():
     # Convert volumes to weight - assuming a single food type
     try:
         db_entry = density_db.query(food_type)
+        print(f'db_entry: {db_entry}')
         density = db_entry[1]
         weight = 0
         for v in volumes:
