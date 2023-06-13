@@ -82,6 +82,7 @@ def volume_estimation():
     # Decode incoming byte stream to get an image
 
     image_data = request.files['img'].read()
+    print(f'image_data: {image_data}, {type(image_data)}')
     # 이미지 데이터를 디코딩하여 OpenCV 이미지로 변환합니다.
     np_img = np.frombuffer(image_data, np.uint8)
     img = cv2.imdecode(np_img, cv2.IMREAD_COLOR)
