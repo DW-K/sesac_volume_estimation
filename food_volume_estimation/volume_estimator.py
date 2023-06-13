@@ -46,6 +46,8 @@ class DensityDatabase():
         Inputs:
             db_path: Path to database excel file (.xlsx) or Google Sheets ID.
         """
+        print("=--=-=-=-=--=-=--=-=-=-==-=-")
+        print(f'db_path: {db_path}')
         if os.path.exists(db_path):
             # Read density database from excel file
             self.density_database = pd.read_excel(
