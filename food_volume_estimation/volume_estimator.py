@@ -49,7 +49,7 @@ class DensityDatabase():
 
         if os.path.exists(db_path):
             # Read density database from excel file
-            self.density_database = pd.read_csv(db_path, usecols=[0, 1], header=None)
+            self.density_database = pd.read_csv(db_path, usecols=[0, 1], header=None, encoding='cp949')
         else:
             # Read density database from Google Sheets URL
             sheet = 'Sheet1'
