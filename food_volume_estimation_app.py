@@ -111,6 +111,7 @@ def volume_estimation():
 
     if '밥' in food_type:
         import random
+        print(f"in 밥         {food_type}")
         return make_response({
             'food_type_match': '밥',
             'weight': 190 + random.random()*25
