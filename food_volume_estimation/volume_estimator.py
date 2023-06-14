@@ -546,3 +546,4 @@ if __name__ == '__main__':
 
 
 # docker run -itd --gpus '"device=0"' -v ${PWD}:/workspace -p 12201:8888 --name sesac_volume_estimation -u root tensorflow/tensorflow:1.13.1-gpu-py3 bash
+# docker run -itd -v ${PWD}:/workspace -p 12202:8000 --name temp_sesac_classification -u root pytorch/pytorch:1.12.1-cuda11.3-cudnn8-devel bash

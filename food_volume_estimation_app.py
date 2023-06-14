@@ -171,7 +171,7 @@ if __name__ == '__main__':
     parser.add_argument('--density_db_source', type=str,
                         help=('Path to food density database (.xlsx) ' +
                               'or Google Sheets ID.'),
-                        default=f'{ROOT_DIR}/database/database.csv',
+                        default=f'{ROOT_DIR}/database/database2.csv',
                         required=False)
     args = parser.parse_args()
     
