@@ -500,7 +500,7 @@ if __name__ == '__main__':
         'min_depth': 0.01,
         'max_depth': 10,
         'relaxation_param': 0.01,
-        'plot_results': False,
+        'plot_results': True,
         'results_file': f'{ROOT_DIR}/result/results.csv',
         'plots_directory': f'{ROOT_DIR}/plot/',
         'density_db': f'{ROOT_DIR}/database/database2.csv',
