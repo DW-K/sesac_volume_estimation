@@ -490,7 +490,7 @@ class VolumeEstimator():
 
 if __name__ == '__main__':
     arg_init = {
-        'input_images': f'{ROOT_DIR}/datasets/1.png',
+        'input_images': f'{ROOT_DIR}/datasets/22.png',
         'depth_model_architecture': f'{ROOT_DIR}/models/monovideo_fine_tune_food_videos.json',
         'depth_model_weights': f'{ROOT_DIR}/models/monovideo_fine_tune_food_videos.h5',
         'segmentation_weights': f'{ROOT_DIR}/models/mask_rcnn_food_segmentation.h5',

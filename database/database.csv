@@ -1,0 +1,684 @@
+﻿Food name and description,Density in g/ml (including mass and bulk density),Specific gravity,BiblioID,"Update Version
+2.0"
+"Beverages, non-alcoholic (including soft drinks and juices)",,,,
+"Apple juice, canned or bottled, unsweetened, with
+added ascorbic acid",1.04,1.05,USDA,x
+"Apple juice, canned or bottled, unsweetened,
+without added ascorbic acid",1.04,1.05,USDA,x
+"Beverages, fruit juice drink, reduced sugar, with
+vitamin E added",1.04,1.05,USDA,x
+"Carbonated beverage, tonic water",1.02,1.02,USDA,x
+"Cranberry juice cocktail, bottled",1.05,1.05,USDA,x
+"Cranberry-apple juice drink, bottled",1.06,1.07,USDA,x
+"Fruit drinks, low calories, undiluted",,1.010-1.030,UK 6th,
+"Fruit drinks, undiluted",,1.090-1.120,UK 6th,
+Fruit juice,1.06,,FNDDS 4.1,
+Fruit juice drinks,,1.04,UK 6th,
+"Fruit juice drinks, ready to drink",,1.030-1.040,UK 6th,
+Grape juice,1.054,,S&W,
+"Grape juice, canned or bottled, unsweetened, with
+added ascorbic acid",1.06,1.07,USDA,x
+"Grape juice, canned or bottled, unsweetened, without added ascorbic acid",1.06,1.07,USDA,x
+"Guanabana nectar, canned",1.02,1.02,USDA,x
+"Guava nectar, canned",1.02,1.02,USDA,x
+"Ice, crushed",0.56-0.72,,ASI,x
+"Juice, apple and grape blend, with added ascorbic
+acid",1.05,1.05,USDA,
+"Juice, apple, grape and pear blend, with added ascorbic acid and calcium",1.05,1.05,USDA,
+"Lemonade, frozen concentrate, pink",1.24,1.24,USDA,
+"Lemonade, frozen concentrate, white",1.17,1.17,USDA,
+"Lime juice cordial, undiluted",,1.102,UK 6th,
+"Mango nectar, canned",1,1,USDA,x
+"Meal supplement drink, NESTLE, SUPLIGEN, canned, peanut flavor",1.04,1.04,USDA,x
+Orange juice,1.038,,S&W,
+Orange juice with calcium,1.038,,S&W,
+"Orange juice, canned, unsweetened",1.04,1.05,USDA,x
+Orange soda (sweetened with sugar),1.029,,S&W,
+"QUAKER OATS, PROPEL Fitness Water, fruit- flavored, non-carbonated",1,1,USDA,x
+"Soft drinks, cola type",,1.04,UK 6th,
+"Soft drinks, diet soda",0.988,,S&W,
+"Soft drinks, lemonade type",,1.02,UK 6th,
+"Soft drinks, lucozade type",,1.07,UK 6th,
+Soy drink,1.08,,FNDDS 4.1,
+Soya + milk + sugar,1.05,,KEN,x
+Soya + sugar,1.05,,KEN,x
+"Sports drink, COCA-COLA, POWERADE, lemon- lime flavored, ready-to-drink",1.03,1.03,USDA,x
+"Sports drink, PEPSICO QUAKER GATORADE,
+GATORADE, original, fruit-flavored, ready-to- drink",1.03,1.03,USDA,x
+"Tamarind nectar, canned",1.01,1.01,USDA,x
+Water,,1,CG,x
+"Water, ice, 0 °C",0.916,,TB,
+"Water, ice, 4 °C",0.999,,TB,
+"Water, liquid, 20 °C",0.998,,TB,
+"Water, mineralwater",1.035-1.04,,DK,
+"Tea, cacao, coffee and drinking powders",,,,
+"Coffee, brewed",1,,FNDDS 4.1,
+"Coffee, expresso",1,,FNDDS 4.1,
+"Coffee, green (beans)",0.59-0.62,0.59-0.62,ASI,x
+"Coffee, powder (nescafé)",0.25,,RC,
+"Coffee, roasted (beans)",0.35-0.38,0.35-0.38,ASI,x
+"Miso, broth, ready to drink",1.06,,FNDDS 4.1,
+"Powder, chocolate drinking powder",0.5-0.55,,RC,
+Powders,0.2-0.25,,KEN,x
+"Tea, black (tea leaves)",0.48,,KEN,x
+"Tea, herbal, Ciakimora (leaves + water)",1,,KEN,x
+"Tea, herbal, Ciakimora leaves",0.23,,KEN,x
+"Tea, flakes",0.38,,ASI,x
+"Tea, powdered",0.43,,ASI,x
+"Tea, liquid",1,,FNDDS 4.1,
+"Tea, only (tea leaves + water)",1,,KEN,x
+"Tea, ready-to-drink, ARIZONA iced tea, with
+lemon flavor",1.03,1.04,USDA,x
+"Tea, ready-to-drink, LIPTON BRISK iced tea, with
+lemon flavor",1.03,1.03,USDA,x
+"Tea, ready-to-drink, NESTLE, COOL NESTEA ice
+tea lemon flavor",1.03,1.04,USDA,x
+"Beverages, alcoholic",,,,
+Beer,,,,
+"Beer, lager",,1.005,UK 6th,
+"Beer, light",1,1,USDA,x
+"Beer, light, BUD LIGHT",1,1,USDA,x
+"Beer, light, BUDWEISER SELECT",1,1,USDA,x
+"Beer, light, MICHELOB ULTRA",1,1,USDA,x
+"Beer, local (non specific)",0.96,,KEN,x
+"Beer, pale ale",,1.003,UK 6th,
+"Beer, pilsner",1.007,,DK,
+"Beer, pilsner, 4 °C",1.008,,TB,
+"Beer, regular, all",1.01,1.01,USDA,x
+"Beer, regular, BUDWEISER",1,1.01,USDA,x
+"Beer, stout, bottled",,1.014,UK 6th,
+"Beer, stout, extra",,1.002,UK 6th,
+"Beer, strong ale",,1.018,UK 6th,
+"Beer, type bitter or brown ale",,1.008,UK 6th,
+"Beer, type draught",,1.004,UK 6th,
+"Beer, type Keg",,1.001,UK 6th,
+"Beer, type mild, draught",,1.009,UK 6th,
+"Beer, commercial (white cap etc.)",0.97,,KEN,x
+Spirits and liqueurs,,,,
+"Alcohol, ethyl",0.789,,TB,
+Amaretto,,1.1,CG,x
+Amaretto di Saranno,,1.08,CG,x
+Anisette,,1.175,CG,x
+Apricot brandy,,1.06,CG,x
+Apricot liquor,,1.09,CG,x
+Bailey's irish cream,,1.05,CG,x
+Benedictine,,1.04,CG,x
+Benedictine D.O.M.,,1.07,CG,x
+Blackberry brandy,,1.06,CG,x
+Blackberry liquor,,1.1,CG,x
+Blue curacao,,1.11,CG,x
+Brandy,,1.04,CG,x
+Campari,,1.06,CG,x
+Cherry brandy,,1.06,CG,x
+Cherry liqueur,,1.12,CG,x
+Coffee liquor,,1.13,CG,x
+Cointreau,,1.04,CG,x
+Crème de almond,,1.16,CG,x
+Crème de banana,,1.14,CG,x
+Crème de cacao,,1.14,CG,x
+Creme de cassis,,1.18,CG,x
+Crème de noyaux,,1.165,CG,x
+Drambuie,,1.08,CG,x
+Frangelico,,1.08,CG,x
+Galliano,,1.11,CG,x
+Green chartreuse,,1.01,CG,x
+Green crème de menthe,,1.12,CG,x
+Kummel,,1.04,CG,x
+Liqueur,1.03-1.150,,DK,
+"Liqueur, type advocaat",,1.093,UK 6th,
+"Liqueur, type cherry brandy",,1.093,UK 6th,
+"Liqueur, type curacao",,1.052,UK 6th,
+Midori melon liquor,,1.05,CG,x
+Orange curacao,,1.08,CG,x
+Parfrait d'amour,,1.13,CG,x
+Peach brandy,,1.06,CG,x
+Peach liqueur,,1.04,CG,x
+Peppermint schnapps,,1.04,CG,x
+Port,,1.026,UK 6th,
+Rock and Rye,,1.05,CG,x
+"Sherry, dry",,0.988,UK 6th,
+"Sherry, medium",,0.998,UK 6th,
+"Sherry, sweet",,1.009,UK 6th,
+Sloe gin,,1.04,CG,x
+Southern comfort,,0.97,CG,x
+"Spirits, 40% alcohol",,0.95,UK 6th,
+"Spirits, 45% alcohol (whiskey)",0.939,,DK,
+"Spirits, 70% alcohol",0.885,,DK,
+"Spirits, 75% alcohol",0.873,,DK,
+Strawberry liqueur,,1.12,CG,x
+Tia Maria,,1.09,CG,x
+Triple sec,,1.09,CG,x
+Tuaca,,0.98,CG,x
+"Vermouth, dry",,1.005,UK 6th,
+"Vermouth, sweet",,1.046,UK 6th,
+White crème de cacao,,1.14,CG,x
+White crème de menthe,,1.12,CG,x
+Yellow chartreuse,,1.06,CG,x
+Wine and Cider,,,,
+"Cider, dry",,1.007,UK 6th,
+"Cider, sweet",,1.012,UK 6th,
+"Cider, vintage",,1.017,UK 6th,
+"Wine, red",,0.998,UK 6th,
+"Wine, rose, medium",,1.003,UK 6th,
+"Wine, table, all",0.99,0.99,USDA,x
+"Wine, table, red",0.99,0.99,USDA,x
+"Wine, table, red, Barbera",0.99,0.99,USDA,x
+"Wine, table, red, Burgundy",1,1,USDA,x
+"Wine, table, red, Cabernet Franc",0.99,0.99,USDA,x
+"Wine, table, red, Cabernet Sauvignon",0.99,0.99,USDA,x
+"Wine, table, red, Carignane",0.99,1,USDA,x
+"Wine, table, red, Claret",0.99,1,USDA,x
+"Wine, table, red, Gamay",0.99,0.99,USDA,x
+"Wine, table, red, Lemberger",0.99,1,USDA,x
+"Wine, table, red, Merlot",0.99,0.99,USDA,x
+"Wine, table, red, Mouvedre",0.99,0.99,USDA,x
+"Wine, table, red, Petite Sirah",0.99,1,USDA,x
+"Wine, table, red, Pinot Noir",0.99,0.99,USDA,x
+"Wine, table, red, Sangiovese",0.99,0.99,USDA,x
+"Wine, table, red, Syrah",0.99,0.99,USDA,x
+"Wine, table, red, Zinfandel",0.99,0.99,USDA,x
+"Wine, table, white",0.99,0.99,USDA,x
+"Wine, table, white, Chardonnay",0.99,0.99,USDA,x
+"Wine, table, white, Chenin Blanc",1,1,USDA,x
+"Wine, table, white, Fume Blanc",0.99,0.99,USDA,x
+"Wine, table, white, Gewurztraminer",0.99,1,USDA,x
+"Wine, table, white, late harvest",1.04,1.04,USDA,x
+"Wine, table, white, late harvest, Gewurztraminer",1.03,1.03,USDA,x
+"Wine, table, white, Muller Thurgau",1,1,USDA,x
+"Wine, table, white, Muscat",1.01,1.01,USDA,x
+"Wine, table, white, Pinot Blanc",0.99,0.99,USDA,x
+"Wine, table, white, Pinot Gris (Grigio)",0.99,0.99,USDA,x
+"Wine, table, white, Riesling",1,1,USDA,x
+"Wine, table, white, Sauvignon Blanc",0.99,0.99,USDA,x
+"Wine, table, white, Semillon",1,1,USDA,x
+"Wine, white",1-1.04,,DK,
+"Wine, white, dry or sparkling",,0.995,UK 6th,
+"Wine, white, medium",,1.005,UK 6th,
+"Wine, white, sweet",,1.016,UK 6th,
+Milk and dairy products,,,,
+Milk,,,,
+Milk (at 15.6 C),,1.02-1.05,CSG,x
+Milk (non-fat dry),0.56,,ASI,x
+Milk (powdered whole),0.56,,ASI,x
+Milk (powdered),0.21,,ASI,x
+"Milk shake, fruit and other",1,,FNDDS 4.1,
+"Milk, acidophilus cultured",1.01,,DK,
+"Milk, buttermilk",1.022,,DK,
+"Milk, chocolate milk, skimmed",1.056,,DK,
+"Milk, cow, whole",1.04,,KEN,x
+"Milk, evaporated",,1.07,UK 6th,
+"Milk, goat, whole",1.08,,FNDDS 4.1,
+"Milk, liquid (whole, semi-skimmed, skimmed)",,1.03,UK 6th,
+"Milk, liquid, partially skimmed",1.034,,DK,
+"Milk, liquid, skimmed",1.033,,TB,
+"Milk, liquid, skimmed",1.036,,DK,
+"Milk, liquid, whole",1.03,,TB,
+"Milk, liquid, whole",1.031,,DK,
+Dairy products,,,,
+Butter,0.911,,TB,
+"Butter, margarine",0.96,,RC,
+"Buttermilk, dried",0.5,,ASI,x
+Casein,0.58,,ASI,x
+"Cheese, emmentaler, grated",0.34,,RC,
+"Cream, 13% fat",1.013,,DK,
+"Cream, 38% fat",0.984,,DK,
+"Cream, 9% fat",1.017,,DK,
+"Cream, double (about 40-50% fat)",,0.94,UK 6th,
+"Cream, heavy",0.994,,TB,
+"Cream, light",1.012,,TB,
+"Cream, single (about 20% fat)",,1,UK 6th,
+"Cream, sour (crème fraiche about 18% fat)",1.005,,DK,
+"Cream, sour (crème fraiche about 38% fat)",0.978,,DK,
+"Cream, whipped",0.496,,S&W,
+"Cream, whipping (about 40% fat)",,0.96,UK 6th,
+Ice cream,0.554,,S&W,
+"Ice cream, dairy",,0.61,UK 6th,
+"Ice cream, light (formerly ice milk)",0.56,,FNDDS 4.1,
+"Ice cream, light, no sugar added",0.58,,FNDDS 4.1,
+"Ice cream, no sugar added",0.54,,FNDDS 4.1,
+"Ice cream, non dairy",,0.51,UK 6th,
+"Ice cream, regular",0.56,,FNDDS 4.1,
+"Ice cream, rich",0.62,,FNDDS 4.1,
+"Sour milk, cow, whole",0.98,,KEN,x
+"Yoghurt, berry, low fat, artificially sweetened",1.06,,FNDDS 4.1,
+"Yoghurt, fruits",1.045-1.06,,DK,
+"Yoghurt, low fat, fruit",,1.08,UK 6th,
+"Yoghurt, plain, unsweetened",1.06,,FNDDS 4.1,
+"Yoghurt, plain, unsweetened",1.031,,DK,
+"Yoghurt, strawberry, low fat",1.08,,FNDDS 4.1,
+Oils and fats,,,,
+Oils,,,,
+"Cooking oil, elianto oil, salad, golden fry, rina",0.88,,KEN,x
+"Cooking oil, sima",0.88,,KEN,x
+"Cooking oil, tily, chipo, pura",0.88,,KEN,x
+"Oil, cod (at 15.6 C)",,0.928,CSG,x
+"Oil, corn (at 15.6 C)",,0.924,CSG,x
+"Oil, cotton seed (at 15.6 C)",,0.88-0.93,CSG,x
+"Oil, lard (at 15.6 C)",,0.91-0.93,CSG,x
+"Oil, linseed (at 15.6 C)",,0.93-0.94,CSG,x
+"Oil, olive (at 15.6 C)",,0.91-0.92,CSG,x
+"Oil, other than palmoil",0.92,,DK,
+"Oil, palm (at 15.6 C)",,0.924,CSG,x
+"Oil, palmoil",0.89,,DK,
+"Oil, peanut (at 15.6 C)",,0.92,CSG,x
+"Oil, rapeseed (at 20 C)",,0.92,CSG,x
+"Oil, seasame seed (at 15.6 C)",,0.923,CSG,x
+"Oil, sunflower",0.96,,RC,
+"Oil, vegetable, coconut",0.924,,TB,
+"Oil, vegetable, corn",0.922,,TB,
+"Oil, vegetable, olive",0.918,,TB,
+"Oil, vegetable, palm",0.915,,TB,
+"Oil, vegetable, peanut",0.914,,TB,
+"Oil, vegetable, soya",0.927,,TB,
+"Oil, whale (at 15.6 C)",,0.925,CSG,x
+Fats and other,,,,
+Animal fat,0.7,,KEN,x
+Lard,0.919,,TB,
+Lard (at 15.6 C),,0.96,CSG,x
+"Mayonnaise, light",1,,TB,
+"Mayonnaise, traditional",0.91,,TB,
+Solid vegetable fat kimbo,0.6,,KEN,x
+Solid vegetable fat rina,0.67,,KEN,x
+Cereal and cereal products,,,,
+Barley,0.62,,TB,
+"Barley malt, flour",0.72,,ASI,x
+"Barley, fine ground",0.74,,ASI,x
+"Barley, meal",0.45,,ASI,x
+"Barley, flour",0.61,,ASI,x
+"Barley, flour, malted",0.64,,ASI,x
+"Barley, ground",0.38-0.42,,ASI,x
+"Barley, malted",0.49,,ASI,x
+"Barley, rolled",0.34-0.38,,ASI,x
+"Barley, scoured",0.66,,ASI,x
+"Barley, whole",0.61-0.69,,ASI,x
+Biscuits,0.41-0.53,,FNDDS 4.1,
+Bran,0.56,,ASI,x
+Bread,0.29,,FNDDS 4.1,
+"Bread, cornbread",0.433,,S&W,
+"Bread, roll, soft",0.18,,FNDDS 4.1,
+"Bread, white",0.42,,KEN,x
+"Bread, white, sliced, prepacked",0.29,,FNDDS 4.1,
+Breadcrumbs,0.45,,RC,
+"Breakfast cereal, cornflakes (dry cereal)",0.117,,S&W,
+"Breakfast cereal, muesli w/ fruits&nuts",0.37,,FNDDS 4.1,
+"Breakfast cereal, raisin bran",0.26,,FNDDS 4.1,
+"Breakfast cereal, type Cheerios",0.13,,FNDDS 4.1,
+"Breakfast cereal, type Corn flakes",0.1,,RC,
+"Breakfast cereal, type Crispix",0.13,,FNDDS 4.1,
+"Breakfast cereal, type frosted flakes",0.18,,FNDDS 4.1,
+"Breakfast cereal, type Just Right",0.24,,FNDDS 4.1,
+"Breakfast cereal, type rice krispies",0.12,,FNDDS 4.1,
+"Buckwheat, bran",0.25,,ASI,x
+"Buckwheat, flour",0.66,,ASI,x
+"Buckwheat, whole",0.59-0.66,,ASI,x
+"Bulrush mille, fermented flour",0.56,,KEN,x
+Cake,0.415,,S&W,
+Cake mix,0.7,,ASI,x
+"Corn/maize flour, white",0.55,,KEN,x
+"Corn/maize starch, loosely packed",0.54,,TB,
+Corn/maize sugar,0.33,,ASI,x
+"Corn/maize, boiled",0.9,,KEN,x
+"Corn/maize, boiled with fat",0.9,,KEN,x
+"Corn/maize, bran",0.21,,ASI,x
+"Corn/maize, chops (coarse)",0.64-0.70,,ASI,x
+"Corn/maize, chops (fine)",0.58-0.62,,ASI,x
+"Corn/maize, chops (medium)",0.61-0.67,,ASI,x
+"Corn/maize, cobs",0.27,,ASI,x
+"Corn/maize, cracked (coarse)",0.64,,ASI,x
+"Corn/maize, ear",0.9,,TB,
+"Corn/maize, ear",0.9,,ASI,x
+"Corn/maize, fermented flour",0.55,,KEN,x
+"Corn/maize, flour",0.82,,ASI,x
+"Corn/maize, meal",0.64,,ASI,x
+"Corn/maize, flour",0.62,,ASI,x
+"Corn/maize, germ flour",0.56,,ASI,x
+"Corn/maize, gluten flour",0.51-0.69,,ASI,x
+"Corn/maize, grits",0.64-0.69,,ASI,x
+"Corn/maize, ground",0.54-0.58,,ASI,x
+"Corn/maize, kibbled",0.32-0.35,,ASI,x
+"Corn/maize, mash",0.72,,ASI,x
+"Corn/maize, shelled",0.72,,TB,
+"Corn/maize, starch",0.67,,ASI,x
+"Corn/maize, starch, tightly packed",0.63,,TB,
+"Corn/maize, white, boiled",0.85,,KEN,x
+"Corn/maize, white, dry",0.81,,KEN,x
+"Corn/maize, whole kernel, dried, cracked (Njenga)",0.81,,KEN,x
+"Corn/maize, whole kernel, dried, cracked, boiled
+(Njenga)",1.07,,KEN,x
+"Corn/maize, whole shelled",0.72,,ASI,x
+Donut mix,0.64,,ASI,x
+Dough mix,0.59,,ASI,x
+"Finger millet, fermented flour",0.61,,KEN,x
+Millet,0.64,,ASI,x
+Millet,0.64,,TB,
+"Millet flour, bulrush",0.56,,KEN,x
+"Millet flour, finger",0.61,,KEN,x
+"Millet, bulrush",0.9,,KEN,x
+"Millet, finger",0.81,,KEN,x
+Oat Flour,0.53,,ASI,x
+Oat middlings,0.61,,ASI,x
+Oats,0.41,,TB,
+Oats,0.43,,ASI,x
+"Oats groats, whole",0.74,,ASI,x
+"Oats, ground",0.46,,ASI,x
+"Oats, hulls",0.13,,ASI,x
+"Oats, rolled",0.30-0.38,,ASI,x
+"Pasta, short macaroni style, boiled",0.55,,RC,
+"Pasta, short macaroni style, raw",0.39,,RC,
+"Pasta/ noodles, boiled",0.59,,KEN,x
+"Porridge flour bonavist, boiled",0.73,,KEN,x
+"Porridge flour bonavist, raw",0.84,,KEN,x
+Porridge flour ken-uji + lemon extract,0.54,,KEN,x
+"Porridge flour ken-uji:F.mill, bul, sorg, wheat",0.6,,KEN,x
+"Porridge, maize, flour + water",1.05,,KEN,x
+Rice,0.72,,ASI,x
+"Rice, boiled",0.73,,KEN,x
+"Rice, boiled with fat",0.7,,KEN,x
+"Rice, bran",0.42,,ASI,x
+"Rice, hulled",0.75,,TB,
+"Rice, puffed",0.1,,ASI,x
+"Rice, raw",0.85,,KEN,x
+"Rice, rough",0.58,,TB,
+"Rice, white, boiled",0.73,,RC,
+"Rice, white, raw",0.82,,RC,
+Rye,0.72,,TB,
+"Rye, bran",0.24-0.32,,ASI,x
+"Rye, flour",0.67,,ASI,x
+"Rye, malted",0.51,,ASI,x
+"Rye, middlings",0.67,,ASI,x
+"Rye, shorts",0.54,,ASI,x
+"Rye, whole",0.69-0.72,,ASI,x
+"Semolina, raw",0.78,,RC,
+"Sorghum, fermented flour",0.54,,KEN,x
+"Sorghum, flour",0.54,,KEN,x
+"Sorghum, seed",0.51-0.56,,ASI,x
+"Soy, flour",0.7,,ASI,x
+"Soya, flour",0.64,,ASI,x
+Wheat,0.77,,TB,
+"Wheat, bran",0.18-0.26,,ASI,x
+"Wheat, cracked",0.56,,ASI,x
+"Wheat, cut",0.74,,ASI,x
+"Wheat, flour",0.48,,ASI,x
+"Wheat, flour",0.58,,KEN,x
+"Wheat, flour",0.67,,ASI,x
+"Wheat, flour",0.521,,S&W,
+"Wheat, flour, malted",0.66,,ASI,x
+"Wheat, flour, white",0.67,,RC,
+"Wheat, flour, wholemeal",0.55,,RC,
+"Wheat, gluten",0.69,,ASI,x
+"Wheat, hulls",0.7,,ASI,x
+"Wheat, middlings",0.24,,ASI,x
+"Wheat, shaved",0.54,,ASI,x
+"Wheat, whole",0.72-0.83,,ASI,x
+Whey,0.56,,ASI,x
+Tubers and products,,,,
+"Arrowroot/cocoyam, boiled",0.54,,KEN,x
+"Arrowroot/cocoyam, raw",0.52,,KEN,x
+"Cassava,flour",0.55,,KEN,x
+"Cassava, boiled",0.63,,KEN,x
+"Cassava, raw",0.63,,KEN,x
+"Potato, english, boiled",0.59,,KEN,x
+"Potato, english, raw",0.59,,KEN,x
+"Potatoes, flakes",0.21,,ASI,x
+"Potatoes, powdered",0.77,,ASI,x
+"Sweet potato, boiled",0.65,,KEN,x
+"Sweet potato, raw",0.44,,KEN,x
+"Yam, boiled",0.79,,KEN,x
+"Yam, raw",0.66,,KEN,x
+Nuts and seeds,,,,
+Almonds,0.46,,ASI,x
+Cashews,0.5,,ASI,x
+Coconut Chips,0.61,,ASI,x
+Flaxseed,0.7,,ASI,x
+Nuts,0.63,,FNDDS 4.1,
+Peanuts,0.53,,ASI,x
+"Peanuts, shelled",0.69,,ASI,x
+"Peanuts, unshelled",0.27-0.38,,ASI,x
+"Pistachio, raw, with shell",0.6,,RC,
+"Pistachio, raw, without shell",0.646,,RC,
+Rapeseed,0.77,,ASI,x
+"Sunflower, seed",0.62,,ASI,x
+Fruits,,,,
+"Apple slices, dried",0.24,,ASI,x
+Loquat,0.6,,KEN,x
+"Paw Paw, unripe",0.56,,KEN,x
+Vegetables,,,,
+"Alfalfa, leaf, meal",0.23,,ASI,x
+"Alfalfa,meal, dehydrated 13%",0.26-0.29,,ASI,x
+"Alfalfa, meal, dehydrated 17%",0.29-0.35,,ASI,x
+"Alfalfa, meal, fine ground",0.24-0.35,,ASI,x
+"Alfalfa, meal, suncured 13%",0.22,,ASI,x
+"Alfalfa, seed",0.72-0.77,,ASI,x
+"Alfalfa, stem meal",0.19,,ASI,x
+"Carrot, raw, chopped",0.54,,KEN,x
+"Carrot, raw, grated",0.71,,KEN,x
+"Cauliflower, boiled",0.45,,RC,
+"Chili, green",0.5,,KEN,x
+"Chili, red",0.5,,KEN,x
+French green beans,0.53,,KEN,x
+Fresh green peas (minji),0.73,,KEN,x
+"Leaves, managu, raw (black night shade)",0.2,,KEN,x
+"Leaves, onion, spring onion, raw",0.44,,KEN,x
+"Corn/maize, green, sweet corn, boiled",0.73,,KEN,x
+"Corn/maize, green, sweet corn, raw",0.61,,KEN,x
+"Olives, green, with stone",0.65,,RC,
+"Onions, chopped",0.22,,ASI,x
+"Onions, minced",0.13,,ASI,x
+"Onions, powdered",0.4,,ASI,x
+"Onions, fried, cubed",0.75,,RC,
+"Onions, raw, cubed",0.55,,RC,
+"Salad, green, leaves, raw",0.06,,RC,
+"Spinach, frozen, cooked",1.046,,RC,
+"Spinach, leaves, raw",0.08,,RC,
+"Sweet pepper, raw, cubes",0.51,,RC,
+"Sweet pepper, raw, half rings",0.39,,RC,
+Legumes,,,,
+"Beans, white",0.69-0.77,,ASI,x
+Cowpeas,0.72,,ASI,x
+"Cowpeas, dried, boiled",0.75,,KEN,x
+"Cowpeas, dried, raw",0.96,,KEN,x
+"Greengram, boiled",0.76,,KEN,x
+"Greengram, raw",0.79,,KEN,x
+"Kidney beans, dry, boiled",0.79,,KEN,x
+"Kidney beans, dry, raw",0.75,,KEN,x
+"Kidney beans, green, boiled",0.7,,KEN,x
+"Kidney beans, green, raw",0.68,,KEN,x
+"Lentils, green, small, boiled",0.85,,RC,
+"Lentils, green, small, raw",0.89,,RC,
+"Pigeon peas, boiled",0.75,,KEN,x
+"Pigeon peas, raw",0.84,,KEN,x
+Soybean,0.74,,ASI,x
+"Soybean, flakes",0.58,,ASI,x
+"Soybean, hulls",0.4,,ASI,x
+"Soybean, meal",0.64,,ASI,x
+"Soybean, boiled",0.79,,KEN,x
+"Soybean, boiled with fat",0.7,,KEN,x
+Herbes and spices,,,,
+"Cinnamon, powder",0.56,,ASI,x
+"Clover, seed",0.77,,ASI,x
+Dry flavoring mix Roiko and other flavorings,0.7,,KEN,x
+"Garlic, flakes",0.35,,ASI,x
+"Garlic, powder",0.32,,ASI,x
+"Sage, leaves",0.29,,ASI,x
+"Spice, barbecue",0.48,,ASI,x
+"Spice, blend",0.58,,ASI,x
+Fish and fish products,,,,
+"Prawns, whole, boiled, with shell",0.58,,RC,
+"Prawns, whole, boiled, without shell",0.77,,RC,
+Egg and egg products,,,,
+"Egg, yoke, powder",0.37,,ASI,x
+"Egg, chicken, boiled/poached",0.6,,FNDDS 4.1,
+"Eggs, powdered",0.35,,ASI,x
+Meat and meat products,,,,
+"Blood, flour",0.48,,ASI,x
+"Blood, meal",0.62,,ASI,x
+"Bone and meat meal, loose",0.72,,ASI,x
+"Bone meal, loose",0.80-0.96,,ASI,x
+"Cow intestine, boiled",0.58,,KEN,x
+"Cow, lean, no bone, raw",0.96,,KEN,x
+"Cow, intestine, raw",0.93,,KEN,x
+"Goat, intestine, boiled",0.56,,KEN,x
+"Goat, intestine, raw",0.83,,KEN,x
+"Pork, fatty, with bone, boiled",0.63,,KEN,x
+"Pork, fatty, with bone, raw",0.97,,KEN,x
+"Pork, medium, with bone, boiled",0.7,,KEN,x
+"Pork, medium, with bone, raw",0.93,,KEN,x
+Snacks,,,,
+Potato chips,0.09,,RC,
+"Potato chips, pringles",0.12,,FNDDS 4.1,
+"Snacks, puffed, lowfat",0.11,,FNDDS 4.1,
+Sweets,,,,
+"Glucolin, glucose",0.4,,KEN,x
+Glucose (at 15.6 C),,1.35-1.44,CSG,x
+Jam,1.333,,S&W,
+"Jam, sweetened",1.43,,RC,
+Jelly,1.245,,S&W,
+Nutella,1.26,,RC,
+Sucrose,0.85,,ASI,x
+Sucrose Octoacetate,0.53,,ASI,x
+Sugar,0.95,,KEN,x
+"Sugar, dextrose",0.62,,ASI,x
+"Sugar, dextrose",0.58,,ASI,x
+"Sugar, granulated",0.7,,ASI,x
+"Sugar, powdered",0.56,,ASI,x
+"Sugar, white",0.9,,RC,
+"Sugar, white",0.88,,FNDDS 4.1,
+"Syrup, blackcurrant, undiluted",,1.28,UK 6th,
+"Syrup, corn",1.38,,TB,
+"Syrup, corn, light",1.4,1.41,USDA,x
+"Syrup, fruit, blackberry",1.34,,RC,
+"Syrup, grenadine",,1.18,CG,x
+"Syrup, maple",1.32,1.32,USDA,x
+"Syrup, pancake",1.312,,S&W,
+Miscellaneous foods,,,,
+Baking powder,0.9,,ASI,x
+Gelatin,0.72,,ASI,x
+Monosodium glutamate,1.62,,TB,
+Mustard powdered,0.26,,ASI,x
+Protein supplement,0.54,,ASI,x
+Salad dressing,1.1,,FNDDS 4.1,
+"Salt, sodium chloride",2.165,,TB,
+"Salt, fine table",1.38,,ASI,x
+"Salt, granulated",1.28,,ASI,x
+"Salt, table",1.217,,S&W,
+"Sauce, soy",1.12,,FNDDS 4.1,
+Sodium bicarbonate,2.2,,TB,
+Vitamin additive,0.66,,ASI,x
+Vitamin compound,0.67,,ASI,x
+Vitamin enrichment,0.64,,ASI,x
+Vitamin mix,0.7,,ASI,x
+Vitamin powder,0.56,,ASI,x
+Yeast,0.95,,ASI,x
+Soups,,,,
+Bean soup,1.054,,S&W,
+Cheddar cheese soup,1.046,,S&W,
+Chicken noodle soup,1,,S&W,
+Egg drop soup,1.017,,S&W,
+Mushroom soup,1.017,,S&W,
+"Soup, meat",1.04,,KEN,x
+"Soup, mixed",1.05,,KEN,x
+"Soup, thick (squash, potato)",1.09,,RC,
+"Soup, vegetable",0.99,,KEN,x
+Tomato soup,1.017,,S&W,
+Mixed dishes,,,,
+Beef and noodles (no sauce),0.65,,S&W,
+Beef and noodles in gravy (mixture),1.04,,S&W,
+"Beef stew, canned",1.05,,S&W,
+"Beef, noodles and vegetables (no sauce)",0.68,,S&W,
+Broccoli casserole,0.95,,S&W,
+Cheese tortellini,1.03,,S&W,
+Chicken and dumplings (mixture),1.04,,S&W,
+Eggplant parmesan,0.83,,S&W,
+Githeri (muthugo + beans) + meat,0.95,,KEN,x
+"Githeri (muthugo + beans) + meat + vegetable +
+potato/banana",0.99,,KEN,x
+"Githeri (muthugo + beans) + onion, boiled with fat",0.98,,KEN,x
+Githeri (muthugo + beans) + potato/banana,0.88,,KEN,x
+Githeri (muthugo + beans) + vegetable,1.04,,KEN,x
+Githeri (muthugo + beans) + vegetable + meat,0.94,,KEN,x
+Githeri + meat,0.75,,KEN,x
+Githeri + meat + vegetable + potato/banana,1.05,,KEN,x
+"Githeri + onion, boiled with fat",0.83,,KEN,x
+Githeri + peas,1.04,,KEN,x
+Githeri + potato/banana,1.1,,KEN,x
+Githeri + roots + vegetable,1.13,,KEN,x
+Githeri + vegetable,1.3,,KEN,x
+Githeri + vegetable + meat,0.84,,KEN,x
+Githeri + vegetable + potato/banana,0.95,,KEN,x
+Githeri plain (muthugo + beans + water),0.98,,KEN,x
+"Githeri, beans + vegetable + potatoes",0.93,,KEN,x
+"Githeri, maize + peas",0.97,,KEN,x
+"Githeri, plain (maize + beans + water)",0.71,,KEN,x
+"Gitwero, banana + beans",1.2,,KEN,x
+"Gitwero, banana + beans + vegetable",1.2,,KEN,x
+"Gitwero, banana + potato + beans",1.04,,KEN,x
+"Gitwero, banana + vegetable",1.2,,KEN,x
+"Gitwero, banana, boiled with fat",1.19,,KEN,x
+"Gitwero, banana/potato",1.3,,KEN,x
+"Gitwero, banana/potato + meat",1.08,,KEN,x
+"Gitwero, banana/potato + vegetable",1.22,,KEN,x
+"Gitwero, root (yam, arrowroot, etc.)",1.14,,KEN,x
+"Gitwero, roots + banana",1.03,,KEN,x
+"Gitwero, roots + banana",1.03,,KEN,x
+Green bean casserole,0.95,,S&W,
+Lasagna,1.04,,S&W,
+"Macaroni and cheese, canned",1,,S&W,
+"Mataha (Maize stew) (Maize stew), maize + peas",0.86,,KEN,x
+"Mataha (maize stew), beans + banana",1.22,,KEN,x
+"Mataha (maize stew), beans + banana + potato",1.25,,KEN,x
+"Mataha (maize stew), beans + banana + potato +
+vegetable",1.15,,KEN,x
+"Mataha (maize stew), beans + potato/banana +
+vegetable",1.14,,KEN,x
+"Mataha (maize stew), beans + vegetable",1.02,,KEN,x
+"Mataha (maize stew), beans + vegetable + banana",1,,KEN,x
+"Mataha (maize stew), maize + banana",1.09,,KEN,x
+"Mataha (maize stew), maize + banana/potato +
+vegetable",1.1,,KEN,x
+"Mataha (maize stew), maize + beans + potato",0.75,,KEN,x
+"Mataha (maize stew), maize + beans + potato +
+vegetable",0.95,,KEN,x
+"Mataha (maize stew), maize + beans + potato,
+boiled with fat",0.75,,KEN,x
+"Mataha (maize stew), maize + beans + vegetable +
+banana",0.7,,KEN,x
+"Mataha (maize stew), maize + vegetable",0.9,,KEN,x
+"Mataha (maize stew), paw paw",1.33,,KEN,x
+"Mexican casserole w/beef, beans, cheese, chips",0.6,,S&W,
+"Mini ravioli, canned",1.05,,S&W,
+Moussaka,0.85,,S&W,
+Muthugo (maize without germ and cover) only,0.76,,KEN,x
+Noodles/pasta with fat,0.8,,KEN,x
+Rice + beans,0.75,,KEN,x
+Rice + beans + potato/banana,0.85,,KEN,x
+Rice + meat,0.73,,KEN,x
+Rice + meat + vegetable,0.83,,KEN,x
+Rice + potato/banana,0.8,,KEN,x
+"Rice + roots (yam, arrowroot etc.)",0.9,,KEN,x
+Rice + vegetable,0.65,,KEN,x
+Rice + vegetable + potato/banana,0.8,,KEN,x
+"Rice, plain (rice + water)",0.7,,KEN,x
+"Spaghetti and meat balls, canned",1.04,,S&W,
+"Stew, banana",1.07,,KEN,x
+"Stew, banana + potato + vegetable",1.06,,KEN,x
+"Stew, beans",1.01,,KEN,x
+"Stew, beans/ peas + meat + vegetables",0.94,,KEN,x
+"Stew, beans/ peas + vegetables",1.07,,KEN,x
+"Stew, meat",1.12,,KEN,x
+"Stew, pea + potato/banana",1.1,,KEN,x
+"Stew, pea + potato/banana + vegetable",1.22,,KEN,x
+"Stew, potato",1.1,,KEN,x
+"Stew, potato + beans + vegetable",1.08,,KEN,x
+"Stew, vegetable",0.68,,KEN,x
+"Stew, vegetable + meat",0.86,,KEN,x
+"Stew, vegetable + potato",1.1,,KEN,x
+"Stew, vegetable + potato + meat",1.08,,KEN,x
+Stew: eggs + veg,0.68,,KEN,x
+Tuna noodle casserole,0.93,,S&W,
+Ugali + beans,0.8,,KEN,x
+Ugali + beans + vegetable,0.8,,KEN,x
+"Ugali + vegetable, crumbed",0.75,,KEN,x
+"Ugali + vegetables, boiled with fat",1.2,,KEN,x
+"Ugali, plain (flour + water), crumbed",0.75,,KEN,x
+Wieners and sauerkraut (mixture),0.61,,S&W,
+Zesty Italian ‘‘hamburger helper’’,1.04,,S&W,
